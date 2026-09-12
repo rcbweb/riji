@@ -1,0 +1,12 @@
+DYE REFERENCE SHEET   (54 file(s) under C:\Path\To\Your\Images)
+========================================================================
+Copy a dye NAME below into the DYES block, e.g.   Cy3 = vesicle
+
+  - Cy3
+        orange-red dye, often the vesicle / particle label   |   colour: orange
+        Em 561 nm   |   channel 0   |   seen in 37 file(s)
+
+  - ESID
+        transmitted light (NOT a dye) -> ignored
+        no wavelength   |   channel 0, 1   |   seen in 54 file(s)
+

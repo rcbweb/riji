@@ -1,0 +1,87 @@
+==========================================================
+  COLOUR NAMES YOU CAN USE   (put in the COLORS list in coloc.py)
+==========================================================
+
+Grouped by colour. In each group the brightest is first and they get
+darker going down, so you can guess a shade without seeing it.
+You may also use a hex code like  "#ff8800".
+
+**Colorblind-Friendly Pairs:**
+For publication-ready, colorblind-safe images (accessible to those with red-green colorblindness), pair a GREEN (like 'green' or 'lime') with a PURPLE (like 'magenta').
+
+**Shortcodes:**
+matplotlib also accepts standard single-letter shorthand: r (red), g (green), b (blue), c (cyan), m (magenta), y (yellow), k (black), w (white).
+
+RED
+   lightcoral            salmon                darksalmon
+   red                   crimson               firebrick
+   darkred
+
+PINK
+   pink                  lightpink             hotpink
+   deeppink              palevioletred         mediumvioletred
+
+ORANGE
+   lightsalmon           coral                 tomato
+   orange                darkorange            orangered
+
+YELLOW
+   lightyellow           lemonchiffon          lightgoldenrodyellow
+   papayawhip            moccasin              peachpuff
+   palegoldenrod         khaki                 darkkhaki
+   yellow                gold                  goldenrod
+   darkgoldenrod
+
+BROWN
+   cornsilk              blanchedalmond        bisque
+   navajowhite           wheat                 burlywood
+   tan                   rosybrown             sandybrown
+   peru                  chocolate             saddlebrown
+   sienna                brown                 maroon
+
+GREEN
+   greenyellow           chartreuse            lawngreen
+   lime                  limegreen             palegreen
+   lightgreen            mediumspringgreen     springgreen
+   mediumseagreen        seagreen              forestgreen
+   green                 darkgreen             yellowgreen
+   olivedrab             olive                 darkolivegreen
+
+CYAN / TEAL
+   lightcyan             cyan                  aqua
+   aquamarine            mediumaquamarine      paleturquoise
+   turquoise             mediumturquoise       darkturquoise
+   lightseagreen         cadetblue             darkcyan
+   teal
+
+BLUE
+   powderblue            lightblue             lightskyblue
+   skyblue               deepskyblue           lightsteelblue
+   dodgerblue            cornflowerblue        steelblue
+   royalblue             blue                  mediumblue
+   darkblue              navy                  midnightblue
+
+PURPLE
+   lavender              thistle               plum
+   violet                orchid                fuchsia
+   magenta               mediumorchid          mediumpurple
+   rebeccapurple         blueviolet            darkviolet
+   darkorchid            darkmagenta           purple
+   slateblue             mediumslateblue       darkslateblue
+   indigo
+
+WHITE / OFF-WHITE
+   white                 snow                  honeydew
+   mintcream             azure                 aliceblue
+   ghostwhite            whitesmoke            seashell
+   beige                 oldlace               floralwhite
+   ivory                 antiquewhite          linen
+   lavenderblush         mistyrose
+
+GREY / BLACK
+   gainsboro             lightgray             lightgrey
+   silver                darkgray              darkgrey
+   gray                  grey                  dimgray
+   dimgrey               lightslategray        lightslategrey
+   slategray             slategrey             darkslategray
+   darkslategrey         black

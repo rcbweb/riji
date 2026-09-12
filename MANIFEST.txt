@@ -1,0 +1,14 @@
+Riji release bundle
+============================================================
+
+Riji-Mac.zip
+  size    : 265,970 bytes (0.3 MB)
+  sha256  : fb8675acc1fb3eff4c62f2b7523cb87b4df0a2de4e9cfbee9cacbd6a8e5685fc
+
+Riji_Windows.zip
+  size    : 275,261,722 bytes (275.3 MB)
+  sha256  : 153cdebd70f3111c71317248d85d592dec1a8a2701f7ae197b5f519c8b395f5d
+
+Check a download with:
+  macOS    shasum -a 256 <file>
+  Windows  Get-FileHash .\<file> -Algorithm SHA256

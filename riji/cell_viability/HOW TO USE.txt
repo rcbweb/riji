@@ -1,0 +1,109 @@
+====================================================================
+  RIJI  -  measure dye uptake in living cells
+====================================================================
+
+  Open the app:      python coloc_gui.py
+  (Mac: double-click Riji.app - see MAC_README.txt to set it up)
+
+
+  1. Choose your images folder.
+     The one that CONTAINS your experiment folders, e.g.
+
+         My experiment/            <-- choose this one
+             control/
+             treatment A/
+             treatment B/
+
+     Each folder inside is treated as a separate experiment.
+
+  2. Choose where results should go.
+
+  3. Press  "1. Find and measure cells",  set how many cells you
+     want from each folder, press START.
+
+     The first run is slow - it looks at every image once and
+     remembers it. Later runs are quick.
+
+
+  THAT IS THE WHOLE JOB. Everything below is optional.
+
+
+--------------------------------------------------------------------
+  WHAT YOU GET
+--------------------------------------------------------------------
+  Figures and Tables\
+      uptake_figure.png / .pdf   the figure, ready for a paper
+      Results.xlsx               every number, in named sheets
+      methods.txt                a methods paragraph with your
+                                 numbers already in it
+
+  Cell Images\
+      one folder per experiment folder: the cells it measured,
+      a montage of them, and whole images showing green = measured,
+      red = rejected
+
+  README.txt
+      what each folder holds, and how many cells came from each
+      folder in this run
+
+  Open Results.xlsx first. The "Cells" sheet is the list of cells
+  and their intensities; "Summary" and "Statistics" are the numbers
+  you would quote.
+
+
+--------------------------------------------------------------------
+  IF SOMETHING LOOKS WRONG
+--------------------------------------------------------------------
+  Press "2. Check the cells".
+
+      Green = measured.  Red = rejected.  Blue = you drew it.
+      Grey  = not a cell, left out altogether.
+
+      Click a cell        keep it / drop it
+      D                   draw a cell it missed
+      Right-click / X     that is not a cell - take it out
+      N / P               next / previous image
+      R                   rebuild everything with your changes
+
+  "Drop it" and "not a cell" are different, and worth keeping
+  apart. Drop it means a real cell you do not want measured -
+  touching a neighbour, half out of frame, out of focus. Not a
+  cell means debris, a smear, or something the computer outlined
+  that was never a cell at all. Anything you mark that way leaves
+  the analysis completely: it is not measured, not counted, and
+  never treated as a live or dead cell. Right-click it again to
+  put it back.
+
+  Pressing R also teaches it from your corrections, so it stops
+  making the same mistake. Your changes are never overwritten by
+  a re-run.
+
+
+--------------------------------------------------------------------
+  CHANGING THE FIGURE
+--------------------------------------------------------------------
+  Press "3. Adjust the figure" - rename bars, reorder them, change
+  colours, add a title, hide a bad image. The figure and Results.xlsx
+  are rewritten together, so they always agree.
+
+
+--------------------------------------------------------------------
+  TWO THINGS WORTH KNOWING
+--------------------------------------------------------------------
+  * The figure shows the N cells you asked for from each folder.
+    If a folder could not supply N, the run says so by name and
+    README.txt records it - draw the missing cells in "Check the
+    cells", or ask for fewer.
+
+  * Statistics are given per cell AND per image. Cells in one image
+    are not independent, so if the two disagree, quote the per-image
+    number.
+
+
+--------------------------------------------------------------------
+  COLOCALIZATION (only if you have two or more dyes)
+--------------------------------------------------------------------
+  "Colocalization in cells" measures overlap INSIDE each measured
+  cell, which is usually what you want. "Colocalization (whole
+  image)" is the older whole-frame version; it needs the dye names
+  filled in, under "Show colocalization settings".

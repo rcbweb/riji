@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "riji"
+version = "1.0.0"
+description = "Desktop colocalization and live-cell image analysis for confocal microscopy"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Rchin Bari"}
+]
+keywords = [
+    "microscopy",
+    "colocalization",
+    "cellpose",
+    "confocal",
+    "live-cell",
+    "fluorescence",
+    "bio-imaging",
+    "czi",
+    "nd2",
+    "cell-viability"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"
+]
+dependencies = [
+    "numpy>=1.22.0",
+    "scipy>=1.8.0",
+    "scikit-image>=0.19.0",
+    "matplotlib>=3.5.0",
+    "pandas>=1.4.0",
+    "openpyxl>=3.0.0",
+    "pillow>=9.0.0",
+    "czifile>=2019.7.2",
+    "tifffile>=2022.5.4",
+    "nd2>=0.5.0",
+    "cellpose>=2.2.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/rchin/riji"
+Documentation = "https://github.com/rchin/riji#readme"
+"Bug Tracker" = "https://github.com/rchin/riji/issues"
+"Releases" = "https://github.com/rchin/riji/releases"
+
+[project.scripts]
+riji = "riji.coloc_gui:main"
+riji-gui = "riji.coloc_gui:main"
+riji-coloc = "riji.coloc:main"
+
+[tool.setuptools]
+packages = ["riji", "riji.cell_viability"]
+
+[tool.setuptools.package-data]
+riji = [
+    "*.txt",
+    "*.png",
+    "cell_viability/*.txt",
+    "cell_viability/*.json"
+]

@@ -1,0 +1,22 @@
+name: riji
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python>=3.10,<3.13
+  - tk
+  - numpy>=1.22.0
+  - scipy>=1.8.0
+  - scikit-image>=0.19.0
+  - matplotlib>=3.5.0
+  - pandas>=1.4.0
+  - openpyxl>=3.0.0
+  - pillow>=9.0.0
+  - tifffile>=2022.5.4
+  - pip
+  - pip:
+      - czifile>=2019.7.2
+      - nd2>=0.5.0
+      - cellpose>=2.2.0
+      - -e .

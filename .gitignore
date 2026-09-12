@@ -1,0 +1,75 @@
+# ====================================================================
+#  Git ignore rules for Riji repository
+# ====================================================================
+
+# Large Binary Distributions (Distribute via GitHub Releases instead)
+*.zip
+Riji_Windows.zip
+Riji-Mac.zip
+_internal/
+*.exe
+*.app/
+.icon.iconset/
+
+# Python byte code and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Microscopy raw data files (Do not track multi-GB raw scans)
+*.czi
+*.nd2
+*.lsm
+
+# Riji Analysis Output folders
+coloc_results/
+Figures and Tables/
+Cell Images/
+install_log.txt
+riji_last_run.txt
+*.log
+
+# PyTorch / Cellpose model caches
+.cache/
+models/
+torch/
+
+# Operating System & IDE junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace

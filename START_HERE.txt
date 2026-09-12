@@ -1,0 +1,63 @@
+====================================================================
+  RIJI - colocalization and live-cell analysis
+====================================================================
+
+  YOU ARE ON A MAC       ->  use  Riji-Mac.zip
+  YOU ARE ON WINDOWS     ->  use  Riji_Windows.zip
+
+  Take only the one for your computer. The other will not run.
+
+
+--------------------------------------------------------------------
+  THE EASY WAY - let your AI assistant do it
+--------------------------------------------------------------------
+  If you use Cursor, Gemini, Antigravity, Claude Code, Copilot or
+  similar: open THIS FOLDER in it and say
+
+      Install Riji by following AGENT_INSTALL.md
+
+  That file is written for the assistant. It tells it exactly what to
+  run, what to check, and what it must not touch. It will ask you
+  before anything that changes your machine.
+
+
+--------------------------------------------------------------------
+  THE MANUAL WAY
+--------------------------------------------------------------------
+  MAC
+    1. Double-click Riji-Mac.zip. Drag the Riji-Mac folder to your
+       Desktop.
+    2. Open Terminal (Command+Space, type Terminal, Return).
+    3. Paste this one line and press Return:
+
+           cd ~/Desktop/Riji-Mac && bash install.command
+
+    4. Wait 10-20 minutes. It is downloading the cell-finding model.
+       It finishes by opening Riji itself.
+    5. From then on, double-click  Riji.app  in that folder.
+
+  WINDOWS
+    1. Right-click Riji_Windows.zip -> Extract All -> Extract.
+       Extract it properly. Do not run it from inside the zip.
+    2. Open the extracted folder and double-click  Riji.exe
+    3. That is all. Nothing to install, no Python needed.
+
+
+--------------------------------------------------------------------
+  SECURITY WARNINGS
+--------------------------------------------------------------------
+  You may see one, once. Riji is not code-signed - that needs a paid
+  Apple or Microsoft certificate. SECURITY.md explains exactly what
+  each warning is and what it is not. Nothing in here asks you to
+  switch a protection off.
+
+
+--------------------------------------------------------------------
+  IF IT DOES NOT WORK
+--------------------------------------------------------------------
+  MAC      read  install_log.txt  and  riji_last_run.txt  in the
+           Riji-Mac folder - they say what happened
+  WINDOWS  read  READ ME FIRST.txt  in the extracted folder
+
+  Nothing installs system-wide. Delete the folder and it is gone.
+====================================================================
