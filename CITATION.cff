@@ -6,8 +6,8 @@ authors:
 title: "Riji: Desktop Colocalization and Live-Cell Image Analysis for Confocal Microscopy"
 version: 1.0.0
 date-released: 2026-09-12
-url: "https://github.com/rchin/riji"
-repository-code: "https://github.com/rchin/riji"
+url: "https://github.com/rcbweb/riji"
+repository-code: "https://github.com/rcbweb/riji"
 license: MIT
 keywords:
   - "microscopy"

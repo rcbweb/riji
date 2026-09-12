@@ -52,10 +52,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/rchin/riji"
-Documentation = "https://github.com/rchin/riji#readme"
-"Bug Tracker" = "https://github.com/rchin/riji/issues"
-"Releases" = "https://github.com/rchin/riji/releases"
+Homepage = "https://github.com/rcbweb/riji"
+Documentation = "https://github.com/rcbweb/riji#readme"
+"Bug Tracker" = "https://github.com/rcbweb/riji/issues"
+"Releases" = "https://github.com/rcbweb/riji/releases"
 
 [project.scripts]
 riji = "riji.coloc_gui:main"

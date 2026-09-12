@@ -4,10 +4,10 @@
 
 ### Desktop Colocalization and Live-Cell Image Analysis for Confocal Microscopy
 
-[![Release](https://img.shields.io/github/v/release/rchin/riji?color=blue&label=Release)](https://github.com/rchin/riji/releases)
+[![Release](https://img.shields.io/github/v/release/rcbweb/riji?color=blue&label=Release)](https://github.com/rcbweb/riji/releases)
 [![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)](https://github.com/rchin/riji/releases)
+[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)](https://github.com/rcbweb/riji/releases)
 [![Citation](https://img.shields.io/badge/cite-CITATION.cff-orange.svg)](CITATION.cff)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.placeholder-blue.svg)](https://zenodo.org/)
 
@@ -44,16 +44,16 @@ Quantitative fluorescence microscopy is frequently hindered by operator subjecti
 
 ### Option A: Experimentalists & Wet-Lab Researchers (No Coding Required)
 
-Pre-built, standalone desktop packages are available from the [**GitHub Releases**](https://github.com/rchin/riji/releases/latest) page:
+Pre-built, standalone desktop packages are available from the [**GitHub Releases**](https://github.com/rcbweb/riji/releases/latest) page:
 
 #### 🪟 Windows
-1. Download `Riji_Windows.zip` from [Releases](https://github.com/rchin/riji/releases/latest).
+1. Download `Riji_Windows.zip` from [Releases](https://github.com/rcbweb/riji/releases/latest).
 2. Right-click $\rightarrow$ **Extract All**.
 3. Open the extracted folder and double-click `Riji.exe`.
    > *Note: Windows SmartScreen may show a one-time notice because the binary is unsigned. Click **More info** $\rightarrow$ **Run anyway** (see [SECURITY.md](SECURITY.md)).*
 
 #### 🍎 macOS
-1. Download `Riji-Mac.zip` from [Releases](https://github.com/rchin/riji/releases/latest) and extract it to your Desktop.
+1. Download `Riji-Mac.zip` from [Releases](https://github.com/rcbweb/riji/releases/latest) and extract it to your Desktop.
 2. Open Terminal (`Cmd + Space`, type `Terminal`, hit `Enter`).
 3. Paste the following line and press Enter:
    ```bash
@@ -70,7 +70,7 @@ For developers, cluster environments, or Linux workstations:
 #### Using Conda / Mamba (Recommended for Labs)
 ```bash
 # Clone the repository
-git clone https://github.com/rchin/riji.git
+git clone https://github.com/rcbweb/riji.git
 cd riji
 
 # Create environment and install dependencies
@@ -84,7 +84,7 @@ riji
 
 #### Using Standard Python & Pip
 ```bash
-git clone https://github.com/rchin/riji.git
+git clone https://github.com/rcbweb/riji.git
 cd riji
 
 # Create virtual environment (Python 3.10+ recommended)
@@ -187,7 +187,7 @@ If you use Riji in academic research, published papers, or conference proceeding
   year         = {2026},
   version      = {1.0.0},
   publisher    = {GitHub},
-  url          = {https://github.com/rchin/riji}
+  url          = {https://github.com/rcbweb/riji}
 }
 ```
 

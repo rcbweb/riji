@@ -21,7 +21,7 @@ If you would like to see support for a new colocalization metric (e.g., Costes s
 #### Development Setup
 1. Fork the repository on GitHub and clone your fork locally:
    ```bash
-   git clone https://github.com/<your-username>/riji.git
+   git clone https://github.com/rcbweb/riji.git
    cd riji
    ```
 2. Create and activate a virtual environment:
